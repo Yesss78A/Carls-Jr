@@ -15,7 +15,6 @@ nav{
     box-sizing: content-box;
     overflow: hidden;
     display: flex; /
-    justify-content: flex-end;
 }
 
 div{
@@ -56,4 +55,18 @@ img{
   overflow: hidden;
   margin-left: 30px;
   margin-top: 10px;
+}
+
+.banner1 img{
+    width: 1200px;
+    justify-items: center;
+    padding-top: 40px;
+}
+
+#bann{
+    height: 260px;
+}
+
+#bannof{
+    height: 500px;
 }
