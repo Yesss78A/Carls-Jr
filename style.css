@@ -1,4 +1,5 @@
 *{
+    align-items: center;
     box-sizing: border-box;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
@@ -25,7 +26,7 @@ nav{
     gap: 10px;
     display: flex; /* Usamos flexbox para alinear los botones */
     justify-content: flex-end; /* Alinea los botones al lado derecho */
-    gap: 10px;
+    
 }
 
 button{
@@ -198,4 +199,70 @@ footer{
     align-items: center;
     font-weight: bolder;
     font-size: 12px;
+}
+@media (max-width: 400px) {
+    nav{
+        height: auto;
+        overflow: hidden;
+        flex-direction: column;
+        margin-left: 30px;
+        width: 400px;
+        align-items: center;
+    }
+    #cj{
+        margin-left: 30px;
+    }
+    #boton {
+        justify-content: right;
+        align-items: center;
+        margin-right: 300px;
+        flex-direction: column;
+        width: 10px;
+        height: auto;
+
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #nw {
+        grid-template-columns: 1fr;
+    }
+
+    .banner1 img {
+        width: 400px;
+        height: 150px !important;
+    }
+    #bannof{
+        height: 250px !important;
+    }
+
+    .finalmenu{
+    display: flex;
+    flex-direction: column;
+    }
+
+    .foot{
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        text-align: center;
+    }
+    .pie{
+        justify-content: center;
+    }
+
+    #redes {
+        justify-content: center;
+        width: auto;
+    }
+
+    #redes img {
+        width: 30px;
+        margin: 5px;
+    }
 }
