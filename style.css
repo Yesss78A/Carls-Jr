@@ -165,14 +165,37 @@ p{
     font-weight: 200;
     font-size: 15px;
 }
+footer{
+    background-color: #231f20;
+    padding: 20px;
+}
 
 .foot{
+    margin: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    border-bottom: 1.5px solid #4a4a4a;
+    padding-bottom: 40px;
 }
-#pie{
-    color: #fff;
 
+.pie{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#redes{
+    display: flex;
+    overflow: hidden;
+    width: 60px;
+    margin: 0%;
+}
+#terms{
+    padding-top: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 12px;
 }
